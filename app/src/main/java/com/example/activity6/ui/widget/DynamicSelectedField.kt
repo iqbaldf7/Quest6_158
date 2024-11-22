@@ -47,6 +47,7 @@ fun DynamicSelectedField(
                 .fillMaxWidth()
         )
 
+
         ExposedDropdownMenu(expanded = expended,
             onDismissRequest = { expended = false }) {
             options.forEach { option: String ->

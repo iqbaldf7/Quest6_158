@@ -23,6 +23,7 @@ class MahasiswaViewModel : ViewModel() {
         }
     }
 
+
     fun setNama(inputNama: String) {
         _mhsState.update { state ->
             state.copy(nama = inputNama)

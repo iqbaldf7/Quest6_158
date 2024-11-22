@@ -30,6 +30,7 @@ class MahasiswaViewModel : ViewModel() {
         }
     }
 
+
     fun setEmail(inputEmail: String) {
         _mhsState.update { state ->
             state.copy(email = inputEmail)

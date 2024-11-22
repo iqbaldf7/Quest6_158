@@ -37,6 +37,7 @@ class MahasiswaViewModel : ViewModel() {
         }
     }
 
+
     fun saveDataMhs(ls: MutableList<String>) {
         if (ls.size >= 3) { // Validasi panjang list
             _mhsState.update { state ->

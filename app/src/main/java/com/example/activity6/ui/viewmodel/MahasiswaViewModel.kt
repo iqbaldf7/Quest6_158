@@ -47,6 +47,7 @@ class MahasiswaViewModel : ViewModel() {
                     email = ls[2]
                 )
             }
+
         } else {
             throw IllegalArgumentException("List must have at least 3 elements")
         }
